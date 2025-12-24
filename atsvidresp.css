@@ -3,7 +3,7 @@ box-sizing: border-box;  /* text-transform: capitalize; */
 }
 body { 
 min-height: 100vh;	/* overflow: hidden; */
-/* font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif;
 }
 .polnvid{position: absolute;}
 #particles-js{ height:100vh; z-index: -3;
