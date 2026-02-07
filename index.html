@@ -6,11 +6,25 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Andrey"> <meta name="Copyright" content="GAA">
 	<title>Просмотр видео 1</title>
+	<link rel="stylesheet" href="styles/preloadnew.css">
+	<link rel="stylesheet" href="styles/preloader2.css">
 	<link rel="stylesheet" href="atsvidresp.css">
 	<link rel="stylesheet" href="kalendcan.css">
 	<link rel="icon" type="Images/x-icon" href="atsicon.ico"/>
 </head>
 <body>
+    <div class="preloader"> 
+        <div class="prob">
+            <p>«Обычные люди думают, как потратить время, великие люди думают, как его использовать» Артур Шопенгауэр</p>
+			<div class="loader">
+				<span class="loader-inner-1"></span>
+				<span class="loader-inner-2"></span>
+				<span class="loader-inner-3"></span>
+				<span class="loader-inner-4"></span>
+			</div>
+		</div>
+    </div>    
+
 <h3 class="heading">Выберите видео для просмотра</h3>
 
 <div class="container">
@@ -152,6 +166,7 @@
 </div>
 </div>  <!--  <video controls width="640" height="480" src="atsvideo1.mp4" type="video/mp4" autoplay muted loop></video>  -->
   <canvas id="canvas-basic"></canvas>
+  <script src="styles/preloadnew.js"></script>
   <script src="granim.min.js"></script>
   <script src="granimjs.js"></script>
 
